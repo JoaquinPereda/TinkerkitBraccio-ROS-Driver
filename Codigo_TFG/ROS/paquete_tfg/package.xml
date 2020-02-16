@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>paquete_tfg</name>
+  <version>0.0.0</version>
+  <description>Paquete del TFG</description>
+
+  <maintainer email="joaquin.pb99@gmail.com">Joaquin Pereda Bados</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+
+  <author email="joaquin.pb99@gmail.com">Joaquin Pereda Bados</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>trajectory_msgs</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>
